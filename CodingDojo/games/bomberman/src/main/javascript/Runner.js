@@ -8,22 +8,22 @@
  * it under the terms of the GNU General Public License as
  * published by the Free Software Foundation, either version 3 of the
  * License, or (at your option) any later version.
- * 
+ *
  * This program is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU General Public License for more details.
- * 
+ *
  * You should have received a copy of the GNU General Public
  * License along with this program.  If not, see
  * <http://www.gnu.org/licenses/gpl-3.0.html>.
  * #L%
  */
 
-// TODO test me
 
 var util = require('util');
 var WSocket = require('ws');
+var {printLogOnTextArea, printBoardOnTextArea} = require('./BrowserNodeStub');
 
 var log = function(string) {
     console.log(string);
@@ -51,7 +51,7 @@ var processBoard = function(boardString) {
     var answer = new DirectionSolver(board).get().toString();
     logMessage += "Answer: " + answer + "\n";
     logMessage += "-----------------------------------\n";
-    
+
     log(logMessage);
 
     return answer;
@@ -380,7 +380,7 @@ var Board = function(board){
        result = result.concat(findAll(Element.BOMB_TIMER_4));
        result = result.concat(findAll(Element.BOMB_TIMER_5));
        result = result.concat(findAll(Element.BOMB_BOMBERMAN));
-       result = result.concat(findAll(Element.OTHER_BOMB_BOMBERMAN));       
+       result = result.concat(findAll(Element.OTHER_BOMB_BOMBERMAN));
        return result;
    };
 
@@ -425,8 +425,8 @@ var Board = function(board){
            return false;
        }
        return isAt(x + 1, y, element) || // TODO to remove duplicate
-              isAt(x - 1, y, element) || 
-              isAt(x, y + 1, element) || 
+              isAt(x - 1, y, element) ||
+              isAt(x, y + 1, element) ||
               isAt(x, y - 1, element);
    };
 
