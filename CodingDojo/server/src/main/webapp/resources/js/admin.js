@@ -24,13 +24,13 @@ pages = pages || {};
 
 function defaultRegistrationSettings() {
     return {
-        showGames: true,
+        showGames: false,
         showNames: true,
         showData1: true,
         showData2: true,
         showData3: true,
         showData4: true,
-        defaultGame: null,
+        defaultGame: 'JavaScript',
         gameTypes: {
             icancode: ['JavaScript', 'Contest', 'eKids', 'Befunge']
         }
