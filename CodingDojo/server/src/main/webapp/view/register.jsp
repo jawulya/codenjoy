@@ -52,7 +52,7 @@ License along with this program.  If not, see
                 <c:if test="${activeProfiles.contains('icancode')}">
                     <!-- TODO to remove from here -->
                     <a class="logo inline" href="#" title="Home"><img src="${ctx}/resources/img/i_can_code_Logo.png"></a>
-                    <span class="title icancode-title">ICanCode</span>
+                    <span class="title icancode-title">InLoveWithCode</span>
                 </c:if>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
@@ -132,7 +132,7 @@ License along with this program.  If not, see
         </div>
     </form:form>
 </div>
-<footer class="footer">
+<%-- <footer class="footer">
     <div class="container-fluid">
         <nav class="footer-nav">
             <ul class="footer-list">
@@ -142,6 +142,6 @@ License along with this program.  If not, see
             </ul>
         </nav>
     </div>
-</footer>
+</footer> --%>
 </body>
 </html>

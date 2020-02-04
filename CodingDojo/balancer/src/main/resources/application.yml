@@ -3,7 +3,7 @@ server:
     context-path: ${context:/codenjoy-balancer}
 
 mvc:
-  cache-period: 259200
+  cache-period: 0
 
 log:
   debug: false

@@ -25,10 +25,12 @@ html {
 }
 
 body {
-    background-color: #464547;
+    background-color: black;
     min-height: 100%;
     position: relative;
-    padding-bottom: 50px;
+    background-image: url('../img/in_love_bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 ul {

@@ -57,7 +57,7 @@ License along with this program.  If not, see
                         <!-- TODO to remove from here -->
                         <a class="logo inline" href="#" title="Home"><img
                                 src="${ctx}/resources/img/i_can_code_Logo.png"></a>
-                        <span class="title icancode-title">ICanCode</span>
+                        <span class="title icancode-title">InLoveWithCode</span>
                     </c:if>
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
