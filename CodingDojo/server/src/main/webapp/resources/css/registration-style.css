@@ -85,6 +85,14 @@ input:-webkit-autofill {
     height: 50px;
 }
 
+.logo-wrapper {
+    padding-top: 10px;
+}
+
+.logo-wrapper img {
+    width: 80px;
+}
+
 .title {
     margin-left: 5px;
     text-transform: uppercase;
