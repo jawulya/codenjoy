@@ -19,6 +19,12 @@
  * <http://www.gnu.org/licenses/gpl-3.0.html>.
  * #L%
  */
+ 
+body {
+  background-image: url('../img/in_love_bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
 
 .main {
   transition: padding 1s;

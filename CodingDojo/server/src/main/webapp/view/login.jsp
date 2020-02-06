@@ -43,7 +43,7 @@ License along with this program.  If not, see
     <div class="header-container">
         <div class="container-fluid">
             <header class="header">
-                <div class="navbar-header">
+                <div class="navbar-header col-md-5">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
                         aria-expanded="false" aria-controls="navbar">
                         <span class="sr-only">Toggle navigation</span>
@@ -59,6 +59,9 @@ License along with this program.  If not, see
                                 src="${ctx}/resources/img/i_can_code_Logo.png"></a>
                         <span class="title icancode-title">InLoveWithCode</span>
                     </c:if>
+                </div>
+                <div class="text-center col-md-2 hidden-xs hidden-sm logo-wrapper">
+                    <img src="${ctx}/resources/img/epam_logo.png" alt="EPAM Logo">
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
                     <nav class="nav pull-right text-right">

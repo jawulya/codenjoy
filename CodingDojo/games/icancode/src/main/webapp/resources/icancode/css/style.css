@@ -35,7 +35,7 @@ canvas {
 }
 
 body {
-  background-color: red!important;
+  background-color: #464547 !important;
 }
 
 .wrapper {
@@ -98,6 +98,14 @@ ul {
   vertical-align: middle;
   display: inline-block;
   height: 50px;
+}
+
+.logo-wrapper {
+  padding-top: 10px;
+}
+
+.logo-wrapper img {
+  width: 80px;
 }
 
 .title {
